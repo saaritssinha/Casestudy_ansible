@@ -1,0 +1,10 @@
+---
+# handlers file for webnginx
+#
+#
+#
+  - name: restart nginx
+    service:
+      name: nginx
+      state: restarted
+

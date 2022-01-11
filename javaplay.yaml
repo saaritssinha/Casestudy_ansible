@@ -1,0 +1,9 @@
+---
+
+
+ - name: Installation of java
+   hosts: development
+   become: yes
+   tasks:
+      - name: Installation of java
+        apt: name=default-jre state=latest

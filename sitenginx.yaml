@@ -1,0 +1,7 @@
+---
+
+ - name: calling role nginx
+   hosts: slave2
+   become: yes
+   roles:
+     - webnginx

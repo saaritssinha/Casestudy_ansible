@@ -1,0 +1,11 @@
+---
+# tasks file for webnginx
+#
+#
+
+
+
+
+ - include: install.yaml
+ - include: configure.yaml
+ - include: service.yaml
